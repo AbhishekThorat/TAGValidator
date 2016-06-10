@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TAGValidator_Example' do
+  pod 'TAGValidator', :path => '../'
+
+  target 'TAGValidator_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
